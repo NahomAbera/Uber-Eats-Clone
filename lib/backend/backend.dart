@@ -26,7 +26,7 @@ export 'schema/orders_record.dart';
 export 'schema/reviews_record.dart';
 export 'schema/food_category_record.dart';
 
-/// Functions to query UsersRecords (as a Stream and as a Future).
+/// Functions to query UsersRecords .
 Future<int> queryUsersRecordCount({
   Query Function(Query)? queryBuilder,
   int limit = -1,
