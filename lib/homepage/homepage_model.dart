@@ -13,7 +13,7 @@ import 'package:provider/provider.dart';
 import 'package:text_search/text_search.dart';
 
 class HomepageModel extends FlutterFlowModel<HomepageWidget> {
-  ///  Local state fields for this page.
+  ///  Local state fields for homepage
 
   String? restaurantFilter = '';
 
